@@ -8,6 +8,7 @@ import pompack.signupPage;
 import java.io.IOException;
 
 public class stepDefclass extends baseClass {
+
     loginPage pom=new loginPage();
     signupPage sign=new signupPage(driver);
     @Given("User enter the URL")
